@@ -6,6 +6,7 @@
       <class name="mobileResponsiveWhite.MobileResponsivness">
         <methods>
           <include name="siteSearch"/>
+          <include name="mobileResponsiveFtKG"/>
           <include name="mobileResponsiveCmLBS"/>
           <include name="tearDown"/>
         </methods>
