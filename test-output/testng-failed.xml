@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="mobileResponsiveWhite.MobileResponsivness">
+      <class name="iOSSafari.SafariReponsive">
         <methods>
-          <include name="siteSearch"/>
-          <include name="mobileResponsiveFtKG"/>
-          <include name="mobileResponsiveCmLBS"/>
-          <include name="tearDown"/>
+          <include name="safariTest"/>
         </methods>
-      </class> <!-- mobileResponsiveWhite.MobileResponsivness -->
+      </class> <!-- iOSSafari.SafariReponsive -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
